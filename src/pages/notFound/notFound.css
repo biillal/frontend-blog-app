@@ -1,0 +1,30 @@
+.not-Found-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 184.6px 0;
+}
+
+.num{
+    color: var(--red-color);
+    font-size: 50px;
+    font-weight: 700;
+}
+.not-Found-title{
+    color: var(--primary-color);
+    font-weight: 500;
+}
+.not-Found-Link{
+    background-color: var(--gray-color);
+    color: var(--white-color);
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.not-Found-Link:hover{
+    color: var(--white-color);
+}

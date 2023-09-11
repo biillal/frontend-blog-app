@@ -1,0 +1,74 @@
+.image-Details{
+    display: flex;
+    flex-direction: column;
+    padding: 18px 250px;
+}
+.imgD{
+    height: 440px;
+    width: 100%;
+}
+.update-image{
+    margin-top: 4px;
+    
+}
+.update-image .update-image-file{
+    color: var(--blue-color);
+    font-weight: 700;
+    cursor: pointer;
+}
+.update-image-file i{
+    font-size: 23px;
+    cursor: pointer;
+}
+.btn-file{
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+    border: 1px solid var(--dark-color);
+    padding: 6px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 10px;
+}
+.title-details{
+    text-align: center;
+    margin-top: 20px;
+}
+.post-details-user{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+.image-user{
+    border-radius: 50%;
+    height: 60px;
+}
+.name-date-user{
+    display: flex;
+    flex-direction: column;
+    margin: 7px 0 0 20px;
+}
+.name{
+    text-decoration: none;
+    color: var(--blue-color);
+}
+.date{
+    color: var(--gray-color);
+}
+.descri{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.likes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+.likes{
+    font-size:24px;
+    cursor: pointer;
+}
+.like{
+    color: var(--blue-color);
+}

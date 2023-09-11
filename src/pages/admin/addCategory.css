@@ -1,0 +1,39 @@
+.section-add-category{
+    padding: 70px 200px;
+}
+.add-new-category{
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+}
+
+.admin-category-title{
+    font-size: 23px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+.form-add-category{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.title-form{
+    color: var(--gray-color);
+    font-weight: 500;
+}
+.admin-category-input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid var(--primary-color);
+    margin-top: 2px;
+}
+.admin-category-btn{
+    margin-top: 15px;
+    border: none;
+    background-color: var(--green-sea-color);
+    height: 45px;
+    border-radius: 10px;
+
+}

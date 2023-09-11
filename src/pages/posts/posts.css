@@ -1,0 +1,5 @@
+.posts{
+    padding: 10px 40px;
+    display: flex;
+    align-items: flex-start;
+}

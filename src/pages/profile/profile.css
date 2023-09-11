@@ -1,0 +1,99 @@
+.profile-header{
+    margin: 30px 25px;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+.profile-image{
+    display: flex;
+    justify-content: center;
+    
+    position: relative;
+}
+.profile-image .img-prof{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+.update-image-profile{
+    width: 240px;
+    position: absolute;
+    top: 97px;
+    left: 100px;
+}
+.update-image-profile i{
+    font-size: 24px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    cursor: pointer;
+    color: var(--primary-color);
+    padding: 2px 5px;
+}
+.sub-update-img{
+    border: none;
+    background-color: var(--white-color);
+    padding: 0 3px;
+    border-radius: 10px;
+    margin-left: 5px;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+.username-profile{
+    margin-top: 20px;
+    color: var(--white-color);
+    font-weight: 500;
+}
+.bio-profile{
+    margin-top: 20px;
+    color: var(--white-color);
+    font-weight: 500;
+}
+.date-profile{
+    color: var(--green-sea-color);
+    font-weight: 500;
+    margin-top: 10px;
+}
+.date-profile span{
+    color: var(--gray-color);
+}
+.btn-update-profule{
+    margin-top: 20px;
+    background-color: var(--green-sea-color);
+    padding: 6px;
+    border-radius: 10px;
+    border: none;
+    color: var(--white-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+.title-post-profile{
+    margin-left: 200px;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+.border-title{
+    border-bottom: 2px solid var(--primary-color);
+    display: flex;
+    margin: 0 280px 0 200px;
+    margin-bottom: 20px;
+}
+.posts-profile{
+    padding: 10px 200px;
+    margin-right: 80px;
+}
+.delete-account{
+    margin-bottom: 30px;
+    margin-left: 60px;
+    border: none;
+    background-color: var(--white-color);
+    color: var(--red-color);
+    border: 1px solid var(--red-color);
+    padding: 7px;
+}
+.delete-account:hover{
+    background-color: var(--red-color);
+    color: var(--white-color);
+}
